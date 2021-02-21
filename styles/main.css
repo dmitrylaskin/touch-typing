@@ -1,0 +1,44 @@
+body, html {
+    font-family: "Montserrat", sans-serif;
+    margin: 0;
+}
+h1 {
+    margin: 0;
+}
+.hero {
+    height: 100vh;
+    text-align: center;
+}
+.header__subtitle {
+    display: none;
+}
+.header {
+    background-color: #addce691;
+    height: 200px;
+    padding-top: 10px;
+}
+.buttons-section {
+    height: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.progress {
+    display: none;
+    height: 30px;
+    width: 200px;
+}
+.game-button {
+    height: 55px;
+    width: 55px;
+    margin-right: 10px;
+    font-size: 24px;
+    font-weight: 700;
+    padding: 0;
+    border-radius: 5px;
+}
+.buttons-wrapper {
+    display: flex;
+
+}
